@@ -1,1 +1,24 @@
 This is an impactJS plugin.
+
+It uses HQX (2, 3 or 4x) pixel upscaling method, instead of nearest neighbor interpolation.
+
+What it does is basically wrapping the hqx javascript port (https://github.com/phoboslab/js-hqx) into a impactjs plugin, by injecting a new ig.Image.resize() function.
+
+Usage : 
+
+1./ Simply require the plugin in main.js (or whatever main js file)
+
+    ig.module( 
+      'game.main' 
+    )
+    .requires(
+	    'impact.game',
+	   	'plugins.hqx'
+      /*...*/
+    )
+    /*../
+
+
+2./ Init your game with a scale factor of 2, 3 or 4.
+
+    ig.main( '#canvas', MyGame, 60, 240, 160, 4 );
