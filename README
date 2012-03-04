@@ -12,8 +12,8 @@ Usage :
       'game.main' 
     )
     .requires(
-	    'impact.game',
-	   	'plugins.hqx'
+	'impact.game',
+	'plugins.hqx'
       /*...*/
     )
     /*../
