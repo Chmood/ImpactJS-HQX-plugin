@@ -1,6 +1,10 @@
 This is an impactJS plugin.
 
-It uses HQX (2, 3 or 4x) pixel upscaling method, instead of nearest neighbor interpolation.
+"Impact is a JavaScript Game Engine that allows you to develop stunning HTML5 Games for desktop and mobile browsers."
+
+More infos at http://impactjs.com/
+
+It uses HQX (2, 3 or 4x) pixel upscaling method, instead of native nearest neighbor interpolation.
 
 What it does is basically wrapping the hqx javascript port (https://github.com/phoboslab/js-hqx) into a impactjs plugin, by injecting a new ig.Image.resize() function.
 
